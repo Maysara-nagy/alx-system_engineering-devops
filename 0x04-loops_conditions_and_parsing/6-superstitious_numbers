@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Write a Bash script that displays numbers from 1 to 20 and:
 
-count=0
+count=1
 
 while [ $count -lt 21 ]
 do
