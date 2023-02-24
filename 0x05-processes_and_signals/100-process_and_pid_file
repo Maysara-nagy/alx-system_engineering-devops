@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#Write a Bash script that:
+
+count=true
+
+trap "echo I hate the kill command" 15
+trap "echo Y U no love me?!" 2
+trap "rm /var/run/myscript.pid && pgrep -f /var/run/myscript.pid | xargs kill" 3
+trap "rm /var/run/myscript.pid && pgrep -f /var/run/myscript.pid | xargs kill" 15
+touch /var/run/myscript.pid
+echo "$!" > /var/run/myscript.pid
+while [ $count ]
+do
+	echo "To infinity and beyond"
+done
