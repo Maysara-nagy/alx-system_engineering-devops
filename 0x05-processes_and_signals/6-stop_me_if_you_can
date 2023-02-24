@@ -1,0 +1,4 @@
+#!/usr/bin/evn bash
+#pkill command
+
+pkill -f 4-to_infinity_and_beyond
