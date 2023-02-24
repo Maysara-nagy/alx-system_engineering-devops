@@ -5,8 +5,8 @@ count=true
 
 trap "echo I hate the kill command" 15
 trap "echo Y U no love me?!" 2
-trap "rm /var/run/myscript.pid && exit" 3
-trap "rm /var/run/myscript.pid && exit" 15
+trap "rm /var/run/myscript.pid ; exit" 3
+trap "rm /var/run/myscript.pid ; exit" 15
 touch /var/run/myscript.pid
 echo "$!" > /var/run/myscript.pid
 while [ $count ]
