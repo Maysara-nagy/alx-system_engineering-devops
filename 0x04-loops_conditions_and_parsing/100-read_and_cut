@@ -2,7 +2,7 @@
 #Write a Bash script that displays the content of the file /etc/passwd.
 
 cat /etc/passwd | cut -d ':' -f1,3,6
-while ture;
+while true;
 do
 	:
 done
