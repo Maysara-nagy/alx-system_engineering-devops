@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #lol
-awk '{print $10,$1,$9}' apache-access.log | sort -rn
+awk '{print $10,$1,$9}' apache-access.log | sort |sort -rn
