@@ -1,0 +1,4 @@
+# ssh config file 
+Host *
+	passwordAuthentication no
+	IdentifyFile ~/.ssh/shchool
