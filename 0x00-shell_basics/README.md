@@ -1,1 +1,1 @@
-ok this readme for shell basics 0x00 dir
+# 0x00-shell_basics
